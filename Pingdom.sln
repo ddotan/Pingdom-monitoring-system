@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "abc\Tester.csproj", "{F311E848-ACD7-4724-85FA-719BCE980166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingdom.TechinalServices", "Pingdom.TechinalServices\Pingdom.TechinalServices.csproj", "{E8CCF282-7D31-454E-90C3-9C92351B0D04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingdom.ObjectModel", "Pingdom.ObjectModel\Pingdom.ObjectModel.csproj", "{458B014D-DE9B-4C9D-843A-47F98870E054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingdom.BussinessLogic", "Pingdom.BussinessLogic\Pingdom.BussinessLogic.csproj", "{491A878C-D9F2-455C-A155-13CF49D56937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingdom.Utilities", "Pingdom.Utilities\Pingdom.Utilities.csproj", "{97557CC5-BEBA-4558-A4D0-F86EE65661BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingdom.Dashboard", "Pingdom.Dashboard\Pingdom.Dashboard.csproj", "{B4AECAB7-0AEE-459F-B130-34254B9CBF73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigStorage", "AppConfigHelper\ConfigStorage.csproj", "{33E7C034-84A5-42E8-8BF9-008D13077B10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{9C066A3B-E279-446E-808C-D66CD4B05256}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\SirixPlatform\lib\Logger.dll = ..\..\SirixPlatform\lib\Logger.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{CE4072EF-F7B3-49FA-AC89-D639A085FECD}"
+	ProjectSection(SolutionItems) = preProject
+		CheckNamePrefix.txt = CheckNamePrefix.txt
+		..\..\..\..\Pingdom\doc\documentation.xlsx = ..\..\..\..\Pingdom\doc\documentation.xlsx
+		Policy_Alerts.txt = Policy_Alerts.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{BAA54738-6CBA-48F7-B7ED-AA97A553576C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Pingdom\doc\Templates\DNS.csv = ..\..\..\..\Pingdom\doc\Templates\DNS.csv
+		..\..\..\..\Pingdom\doc\Templates\HTTP.HTTPS(use this).csv = ..\..\..\..\Pingdom\doc\Templates\HTTP.HTTPS(use this).csv
+		..\..\..\..\Pingdom\doc\Templates\PING.csv = ..\..\..\..\Pingdom\doc\Templates\PING.csv
+		..\..\..\..\Pingdom\doc\Templates\TCP.csv = ..\..\..\..\Pingdom\doc\Templates\TCP.csv
+		..\..\..\..\Pingdom\doc\Templates\UDP.csv = ..\..\..\..\Pingdom\doc\Templates\UDP.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://support-tools:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AppConfigHelper\\ConfigStorage.csproj
+		SccProjectName1 = AppConfigHelper
+		SccLocalPath1 = AppConfigHelper
+		SccProjectUniqueName2 = Pingdom.BussinessLogic\\Pingdom.BussinessLogic.csproj
+		SccProjectName2 = Pingdom.BussinessLogic
+		SccLocalPath2 = Pingdom.BussinessLogic
+		SccProjectUniqueName3 = Pingdom.Dashboard\\Pingdom.Dashboard.csproj
+		SccProjectName3 = Pingdom.Dashboard
+		SccLocalPath3 = Pingdom.Dashboard
+		SccProjectUniqueName4 = Pingdom.ObjectModel\\Pingdom.ObjectModel.csproj
+		SccProjectName4 = Pingdom.ObjectModel
+		SccLocalPath4 = Pingdom.ObjectModel
+		SccProjectUniqueName5 = Pingdom.TechinalServices\\Pingdom.TechinalServices.csproj
+		SccProjectName5 = Pingdom.TechinalServices
+		SccLocalPath5 = Pingdom.TechinalServices
+		SccProjectUniqueName6 = Pingdom.Utilities\\Pingdom.Utilities.csproj
+		SccProjectName6 = Pingdom.Utilities
+		SccLocalPath6 = Pingdom.Utilities
+		SccProjectUniqueName7 = abc\\Tester.csproj
+		SccProjectName7 = abc
+		SccLocalPath7 = abc
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F311E848-ACD7-4724-85FA-719BCE980166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F311E848-ACD7-4724-85FA-719BCE980166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F311E848-ACD7-4724-85FA-719BCE980166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F311E848-ACD7-4724-85FA-719BCE980166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CCF282-7D31-454E-90C3-9C92351B0D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CCF282-7D31-454E-90C3-9C92351B0D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CCF282-7D31-454E-90C3-9C92351B0D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CCF282-7D31-454E-90C3-9C92351B0D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458B014D-DE9B-4C9D-843A-47F98870E054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458B014D-DE9B-4C9D-843A-47F98870E054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458B014D-DE9B-4C9D-843A-47F98870E054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458B014D-DE9B-4C9D-843A-47F98870E054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491A878C-D9F2-455C-A155-13CF49D56937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491A878C-D9F2-455C-A155-13CF49D56937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491A878C-D9F2-455C-A155-13CF49D56937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491A878C-D9F2-455C-A155-13CF49D56937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97557CC5-BEBA-4558-A4D0-F86EE65661BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97557CC5-BEBA-4558-A4D0-F86EE65661BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97557CC5-BEBA-4558-A4D0-F86EE65661BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97557CC5-BEBA-4558-A4D0-F86EE65661BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AECAB7-0AEE-459F-B130-34254B9CBF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AECAB7-0AEE-459F-B130-34254B9CBF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AECAB7-0AEE-459F-B130-34254B9CBF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AECAB7-0AEE-459F-B130-34254B9CBF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E7C034-84A5-42E8-8BF9-008D13077B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E7C034-84A5-42E8-8BF9-008D13077B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E7C034-84A5-42E8-8BF9-008D13077B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E7C034-84A5-42E8-8BF9-008D13077B10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAA54738-6CBA-48F7-B7ED-AA97A553576C} = {CE4072EF-F7B3-49FA-AC89-D639A085FECD}
+	EndGlobalSection
+EndGlobal

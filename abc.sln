@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abc", "abc\abc.csproj", "{F311E848-ACD7-4724-85FA-719BCE980166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingdom.TechinalServices", "Pingdom.TechinalServices\Pingdom.TechinalServices.csproj", "{E8CCF282-7D31-454E-90C3-9C92351B0D04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingdom.ObjectModel", "Pingdom.ObjectModel\Pingdom.ObjectModel.csproj", "{458B014D-DE9B-4C9D-843A-47F98870E054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingdom.BussinessLogic", "Pingdom.BussinessLogic\Pingdom.BussinessLogic.csproj", "{491A878C-D9F2-455C-A155-13CF49D56937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingdom.Utilities", "Pingdom.Utilities\Pingdom.Utilities.csproj", "{97557CC5-BEBA-4558-A4D0-F86EE65661BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingdom.Dashboard", "Pingdom.Dashboard\Pingdom.Dashboard.csproj", "{B4AECAB7-0AEE-459F-B130-34254B9CBF73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigStorage", "AppConfigHelper\ConfigStorage.csproj", "{33E7C034-84A5-42E8-8BF9-008D13077B10}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://support-tools:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = abc\\abc.csproj
+		SccProjectName0 = abc
+		SccAuxPath0 = http://support-tools:8080/tfs/defaultcollection
+		SccLocalPath0 = abc
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Pingdom.TechinalServices\\Pingdom.TechinalServices.csproj
+		SccProjectName1 = Pingdom.TechinalServices
+		SccAuxPath1 = http://support-tools:8080/tfs/defaultcollection
+		SccLocalPath1 = Pingdom.TechinalServices
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Pingdom.ObjectModel\\Pingdom.ObjectModel.csproj
+		SccProjectName2 = Pingdom.ObjectModel
+		SccAuxPath2 = http://support-tools:8080/tfs/defaultcollection
+		SccLocalPath2 = Pingdom.ObjectModel
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = Pingdom.BussinessLogic\\Pingdom.BussinessLogic.csproj
+		SccProjectName3 = Pingdom.BussinessLogic
+		SccAuxPath3 = http://support-tools:8080/tfs/defaultcollection
+		SccLocalPath3 = Pingdom.BussinessLogic
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = Pingdom.Utilities\\Pingdom.Utilities.csproj
+		SccProjectName4 = Pingdom.Utilities
+		SccAuxPath4 = http://support-tools:8080/tfs/defaultcollection
+		SccLocalPath4 = Pingdom.Utilities
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = Pingdom.Dashboard\\Pingdom.Dashboard.csproj
+		SccProjectName5 = Pingdom.Dashboard
+		SccAuxPath5 = http://support-tools:8080/tfs/defaultcollection
+		SccLocalPath5 = Pingdom.Dashboard
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName6 = AppConfigHelper\\ConfigStorage.csproj
+		SccProjectName6 = AppConfigHelper
+		SccAuxPath6 = http://support-tools:8080/tfs/defaultcollection
+		SccLocalPath6 = AppConfigHelper
+		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F311E848-ACD7-4724-85FA-719BCE980166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F311E848-ACD7-4724-85FA-719BCE980166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F311E848-ACD7-4724-85FA-719BCE980166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F311E848-ACD7-4724-85FA-719BCE980166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CCF282-7D31-454E-90C3-9C92351B0D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CCF282-7D31-454E-90C3-9C92351B0D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CCF282-7D31-454E-90C3-9C92351B0D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CCF282-7D31-454E-90C3-9C92351B0D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458B014D-DE9B-4C9D-843A-47F98870E054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458B014D-DE9B-4C9D-843A-47F98870E054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458B014D-DE9B-4C9D-843A-47F98870E054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458B014D-DE9B-4C9D-843A-47F98870E054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491A878C-D9F2-455C-A155-13CF49D56937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491A878C-D9F2-455C-A155-13CF49D56937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491A878C-D9F2-455C-A155-13CF49D56937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491A878C-D9F2-455C-A155-13CF49D56937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97557CC5-BEBA-4558-A4D0-F86EE65661BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97557CC5-BEBA-4558-A4D0-F86EE65661BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97557CC5-BEBA-4558-A4D0-F86EE65661BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97557CC5-BEBA-4558-A4D0-F86EE65661BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AECAB7-0AEE-459F-B130-34254B9CBF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AECAB7-0AEE-459F-B130-34254B9CBF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AECAB7-0AEE-459F-B130-34254B9CBF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AECAB7-0AEE-459F-B130-34254B9CBF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E7C034-84A5-42E8-8BF9-008D13077B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E7C034-84A5-42E8-8BF9-008D13077B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E7C034-84A5-42E8-8BF9-008D13077B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E7C034-84A5-42E8-8BF9-008D13077B10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
